@@ -1,0 +1,39 @@
+* {
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.table {
+    background-color: aliceblue;
+}
+
+nav {
+    background-color: #cfe2ff;
+}
+
+#logo {
+    color: black;
+}
+
+.col-2 {
+    border-right: 2px solid lightgray;
+    height: 700px;
+}
+
+/* Add custom styles here if needed */
+.category-box {
+
+    background-color: #cfe2ff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.category-link {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.category-link:hover {
+    color: lightsalmon;
+}

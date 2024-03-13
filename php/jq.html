@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.js"></script>
+
+</head>
+<script>
+var a=["ram","shyam"];
+var b=["ram","shyam"];
+a=[a,b]
+console.log(a);
+
+    $(document).ready(function () {
+
+        $(".abc").css("background-color", "lightgreen");
+        $(".btn").css("background-color", "lightgreen");
+        $(".a").prop("disabled", true);
+    });
+</script>
+
+<body>
+    <h1 class="abc">hello world</h1>
+    <hr>
+    <h1 class="abc">hello arpan</h1>
+    <hr>
+    <input type="button" value="hello" class="btn a">
+    <hr>
+    <input type="button" value="world" class="btn a">
+    <input type="button" value="world" class="btn v">
+    <input type="button" value="world" class="btn a">
+</body>
+
+</html>
